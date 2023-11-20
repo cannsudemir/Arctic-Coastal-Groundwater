@@ -1,0 +1,33 @@
+;Underwater terrain file (*.UWT)
+;any line started with ; is a comment file
+;Distance unit in meters
+unit=meters
+;case flag: underwater survey cases
+; 1 - Underwater without terrain
+; 2 - underwater w/ terrain
+; 3 - mixed surface and underwater electrodes w/terrain
+; 4 - mixed land and underwater electrodes with a water body at the end
+; 5 - Water segment at the beginning of the profile
+5
+;water resistivity. If known, leave blank
+WaterRes=0.67
+;case 2: X below is the horizontal distance
+;case 4: X below is the cable length or tape measure
+; X, Elevation of Land Surface starting from the electrode right to shoreline electrode
+79.5, 0.554
+81, 0.597
+
+:Water Segment #1
+; 0-based horizontal X, Water depth, shoreline electrode towards the left
+0, 0
+1.5, 0.2
+3, 0.35
+4.5, 0.33
+6, 0.42
+7.5,0.6
+9, 0.822
+10.5, 0.9
+12, 1.128
+13.5,1.356
+15, 1.473
+78, 2.4
