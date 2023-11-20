@@ -118,11 +118,6 @@ fittedHK:
 hydraulic conductivity estimated by graph fitting (HeatTracing-vs-DarcysLaw)
 
 
-COMSOL_model_files
-------------------------------------------------------------------------------------
-
-The list of files given in this folder are to reproduce groundwater flux estimates via numerical models. COMSOL files (.mph) are provided for each model domain (SL and KL). initcond_1 and inittemp_1 .txt files are the steady-state concentration and temperature distributions which were previously calculated and are defined in the models as an initial state to run the scenarios.
-
 ERT_data
 ------------------------------------------------------------------------------------
 
