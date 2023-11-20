@@ -8,7 +8,7 @@ by Demir, C., McClelland, J. W., Bristol, E., Charette, M. A., Cardenas, M. B.
 This document is aimed to give information on the data provided and how they are tied to the related manuscript.
 
 Piezometer_information.csv
-------------------
+------------------------------------------------------------------------------------
 This data was used in the making of Figure 2 and S6. Units are given in meters.
 
 
@@ -16,14 +16,14 @@ Detailed piezometer information on shore-perpendicular transects in Simpson Lago
 
 
 Temp-depth-sensor_information.csv
-------------
+------------------------------------------------------------------------------------
 This data was used in the making of Figure 2 and S6. Units are given in meters.
 
 Detailed information temperature-depth sensor setup installed along the shore-perpendicular transects in SL(A & B) and KL.
 
 
 temperatures.csv
--------------
+------------------------------------------------------------------------------------
 
 This data was used in the making of Figures 2, S7, S8 and S9.
 
@@ -31,18 +31,16 @@ Temperatures measured at multi-depth (depth-below-ground or elevation w.r.t. loc
 
 
 Inverted-resistivity_SL.csv
----------------------
+------------------------------------------------------------------------------------
 
 This data was used in the making of Figures 2, S1, S2 and S3.
 
 True Resistivity (ohm.m):
 The apparent resistivity data (also provided as .stg and .dat files for AGI and Res2dinv softwares, respectively) is inverted to true resistivity.
 
-x (m):
-Horizontal distance
+x (m): Horizontal distance
 
-z (m):
-Vertical distance	
+z (m): Vertical distance	
 
 LB_underwater_Schlumber:
 Lagoon bottom Schlumberger survey. Underwater inversion was completed in AGI EarthImager 2D software. The provided data includes the assigned lagoon cells, therefore it is not showing the true lagoon bottom topography. See the topographic information given in underwater_LB.uwt file.
@@ -55,7 +53,7 @@ Tundra merged (Schlumberger+Dipole-dipole) survey. The inversion was completed i
 
 
 HKs_grainsize_Ksat.csv
---------
+------------------------------------------------------------------------------------
 
 This data was used in the making of Figure S11 and Table S5.
 
@@ -67,7 +65,7 @@ Grain size distribution of disturbed sediment samples collected in Kaktovik Lago
 
 
 Gw_head_salinity.csv
---------
+------------------------------------------------------------------------------------
 
 This data was used in the making of Figure 3.
 
@@ -76,7 +74,7 @@ Given groundwater head values were corrected according to local air pressure and
 
 
 Lagoon_level_salinity.csv
---------
+------------------------------------------------------------------------------------
 
 This data was used in the making of Figure 3.
 
@@ -85,7 +83,7 @@ Given lagoon level values were corrected according to local air pressure (and se
 
 
 GW_flux_via_num_models.csv
---------
+------------------------------------------------------------------------------------
 
 This data was used in the making of Figure 4.
 
@@ -93,7 +91,7 @@ Description: Values are given for the upward discharge estimated for 100 differe
 
 
 GW_flux_via_heat-tracing.csv
---------
+------------------------------------------------------------------------------------
 
 This data was used in the making of Figures 3, 4, S10, S12 and S13.
 
@@ -104,7 +102,7 @@ Kurylyk, B. L. et al. Heat as a groundwater tracer in shallow and deep heterogen
 
 
 GW_flux_via_Darcys_law.csv
---------
+------------------------------------------------------------------------------------
 
 This data was used in the making of Figures 3, 4, S10, S12 and S13.
 
@@ -121,12 +119,12 @@ hydraulic conductivity estimated by graph fitting (HeatTracing-vs-DarcysLaw)
 
 
 COMSOL_model_files
---------
+------------------------------------------------------------------------------------
 
 The list of files given in this folder are to reproduce groundwater flux estimates via numerical models. COMSOL files (.mph) are provided for each model domain (SL and KL). initcond_1 and inittemp_1 .txt files are the steady-state concentration and temperature distributions which were previously calculated and are defined in the models as an initial state to run the scenarios.
 
 ERT_data
---------
+------------------------------------------------------------------------------------
 
 In this folder, all the raw ERT survey data (apparent resistivity, pre-inversion) for each transect surveyed are given for reproducibility.
 
